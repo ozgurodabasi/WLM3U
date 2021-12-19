@@ -1,7 +1,0 @@
-platform :ios, '10.0'
-
-use_frameworks!
-
-target 'WLM3U_Example' do
-  pod 'WLM3U', :path => '../'
-end

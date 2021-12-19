@@ -8,5 +8,5 @@ let package = Package(
     platforms: [.iOS(.v10),],
     products: [.library(name: "WLM3U", targets: ["WLM3U"])],
     dependencies: [.package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.1.0"))],
-    targets: [.target(name: "WLM3U", path: "Sources")]
+    targets: [.target(name: "WLM3U", dependencies: ["Alamofire"], path: "Sources")]
 )
